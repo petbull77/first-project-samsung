@@ -7,7 +7,6 @@
     /*opacity: 0px;*/
     /*padding: 0;*/
     padding: 0 15px;
-
 }
 
 a, p {
@@ -111,7 +110,7 @@ a, p {
 }
 
 .cake {
-    background: green;
+
     width: 40%;
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +126,7 @@ a, p {
 }
 
 .cake img, .oil img {
-    width: 100%;
+
     max-height: 295px;
 }
 
@@ -177,13 +176,219 @@ a, p {
 
 .onion {
     width: 50%;
-    padding: 20px 0px 0px 0px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .broccoli {
+    width: 50%;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-container img {
+    height: 300px;
+    width: 300px;
+}
+
+.blue-container p {
+    font-size: 64px;
+}
+
+.shelf {
+    height: 374px;
+    margin-top: 40px;
+    background: #FFFFE9;
+    display: flex;
+    padding: 30px 65px;
+    justify-content: center;
+
+}
+
+.cucumber {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.radish {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.lemon {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+
+}
+
+.eggs {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cucumber img, .radish img, .lemon img, .eggs img {
+    width: 100%;
+    height: 231px;
+}
+
+.cucumber p, .radish p, .lemon p, .eggs p {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+
+}
+
+.meat {
+
+    padding: 30px 65px 30px 65px;
+    display: flex;
+    height: 581px;
+    background: #B8BEB6;
+}
+
+.block {
+    width: 100%;
+    height: 521px;
+    padding: 30px 65px 30px 65px;
+    background: #C5E9FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meat img {
+    height: 404px;
+    transform: rotate(270deg);
+}
+
+.meat p {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+}
+
+.fruits {
+    height: 504px;
+    margin-top: 60px;
+    background: #B8BEB6;
+    display: flex;
+    padding: 30px 65px 30px 65px;
+}
+
+.fruits img {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.pizza {
+    height: 709px;
+    background: #B8BEB6;
+    margin-top: 60px;
+    padding: 30px 65px 30px 65px;
+}
+
+.w-block {
+    height: 649px;
+    padding: 30px 65px 30px 65px;
+    background: #C5E9FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pizza img {
+    width: 532px;
+}
+
+.pizza p {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+}
+
+.ice-cream {
+    height: 469px;
+    margin-top: 60px;
+    background: #FFFFE9;
+    display: flex;
+    padding: 30px 65px;
+    justify-content: space-between;
+}
+
+.ice {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ice2 {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ice img, .ice2 img {
+    height: 320px;
+}
+
+.ice p, .ice2 p {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+}
+
+.shelf2 {
+    padding: 30px 65px 30px 65px;
+    display: flex;
+    margin-top: 60px;
+    background: #B8BEB6;
+}
+
+.blue-container {
+    background: #C5E9FC;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-container:nth-child(2) {
+    margin-left: 50px;
+}
+
+.bed {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cauliflower {
     width: 50%;
     padding: 20px 0 0 0;
     display: flex;
@@ -232,18 +437,20 @@ a, p {
     }
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 991px) {
     .container {
         max-width: 960px;
     }
-
-    .mobile {
-        display: none;
-    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1199px) {
     .container {
         max-width: 1140px;
     }
 }
+
+
+
+
+
