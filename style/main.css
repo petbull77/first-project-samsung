@@ -8,7 +8,9 @@
     /*padding: 0;*/
     padding: 0 15px;
 }
-
+.mobile{
+    display: none;
+}
 a, p {
     font-family: inter, serif;
 }
@@ -408,6 +410,12 @@ a, p {
 @media (max-width: 992px) {
     .desktop {
         display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .logo{
+        margin-right: 50px;
     }
 }
 
