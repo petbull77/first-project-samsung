@@ -373,7 +373,6 @@ a, p {
 
 .blue-container {
     background: #C5E9FC;
-    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -418,26 +417,89 @@ a, p {
         margin-right: 50px;
     }
 }
+.cabbage-mobile
+{ display: block;
+    height: 193px;
+  align-content: center;
+    margin-top: 81px;
+    padding: 20px 66px 48px 66px;
+    background: #E6FFC0;
 
+}
+.cabbage-mobile img
+{   padding: 0 0;
+    height: 125px;
+align-content: center;
+    margin-right: 50px;
+    /*display: flex;*/
+    /*    padding: 30px 289px 107px 289px;*/
+
+}
+.cabbage-mobile p
+{
+    height: 28px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.84px;
+    color: #000000;
+}
 @media (max-width: 576px) {
     .logo {
         max-width: 63px;
         max-height: 20px;
     }
 }
+.any-mobile {
+     display: block;
+    height: 648px;
+    margin-top: 30px;
+    background: #FFFFE9;
+    padding: 20px 15px 20px 15px;
+     justify-content: center;
+}
+.cake-mobile {
+    width: 40%;
+    height: 140px;
+    padding: 20px 109px 16px 109px;
+   align-items: center;
+    display: block;
+}
 
-@media (min-width: 576px) {
-    /*.logo {*/
-    /*    max-width: 63px;*/
-    /*    max-height: 20px;*/
-    /*    padding: 0;*/
-    /*}*/
+.oil-mobile {width: 20%;
+    height: 140px;
+    padding: 16px 126px 16px  126px ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.cake-mobile img, .oil-mobile img {
+
+    max-height: 140px;
+}
+.cake-mobile p, .oil-mobile p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.84px;
+
+    color: #000000;
+}
+
+
+
+
+
+
+@media (min-width: 576px){
     .container {
         max-width: 540px;
-        margin: auto;
-        padding: 0;
+
+
     }
 }
+
+
 
 @media (min-width: 768px) {
     .container {
