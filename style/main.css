@@ -8,9 +8,11 @@
     /*padding: 0;*/
     padding: 0 15px;
 }
-.mobile{
+
+.mobile {
     display: none;
 }
+
 a, p {
     font-family: inter, serif;
 }
@@ -410,74 +412,83 @@ a, p {
     .desktop {
         display: none;
     }
+
     .mobile {
         display: block;
     }
-    .logo{
+
+    .logo {
         margin-right: 50px;
     }
 }
-.cabbage-mobile
-{ display: block;
+
+.cabbage-mobile {
+    display: flex;
     height: 193px;
-  align-content: center;
-    margin-top: 81px;
+    margin-top: 30px;
     padding: 20px 66px 48px 66px;
     background: #E6FFC0;
-
+    flex-direction: column;
+    align-items: center;
 }
-.cabbage-mobile img
-{   padding: 0 0;
+
+.cabbage-mobile img {
+    padding: 0 0;
     height: 125px;
-align-content: center;
-    margin-right: 50px;
+    align-content: center;
+    display: table-cell;
+
     /*display: flex;*/
     /*    padding: 30px 289px 107px 289px;*/
 
 }
-.cabbage-mobile p
-{
+
+.cabbage-mobile p {
     height: 28px;
     font-size: 23px;
     font-weight: 400;
     line-height: 27.84px;
     color: #000000;
 }
+
 @media (max-width: 576px) {
     .logo {
         max-width: 63px;
         max-height: 20px;
     }
 }
+
 .any-mobile {
-     display: block;
-    height: 648px;
+    display: block;
+    height: auto;
     margin-top: 30px;
     background: #FFFFE9;
     padding: 20px 15px 20px 15px;
-     justify-content: center;
-}
-.cake-mobile {
-    width: 40%;
-    height: 140px;
-    padding: 20px 109px 16px 109px;
-   align-items: center;
-    display: block;
+    justify-content: center;
 }
 
-.oil-mobile {width: 20%;
+.cake-mobile {
     height: 140px;
-    padding: 16px 126px 16px  126px ;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+    align-content: center;
     display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.oil-mobile {
+    height: 140px;
+    padding: 20px;
+    align-content: center;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .cake-mobile img, .oil-mobile img {
-
     max-height: 140px;
 }
+
 .cake-mobile p, .oil-mobile p {
     font-size: 23px;
     font-weight: 400;
@@ -487,38 +498,40 @@ align-content: center;
 }
 
 
-
-
-
-
-@media (min-width: 576px){
+@media (min-width: 576px) {
     .container {
-        max-width: 540px;
-
+        padding: 0 calc(50% - 270px);
 
     }
 }
 
 
-
 @media (min-width: 768px) {
     .container {
-        max-width: 720px;
+        padding: 0 calc(50% - 360px);
+
     }
 }
 
 
 @media (min-width: 991px) {
     .container {
-        max-width: 960px;
+        padding: 0 calc(50% - 480px);
+
     }
 }
 
 @media (min-width: 1199px) {
     .container {
-        max-width: 1140px;
+        padding: 0 calc(50% - 590px);
+
     }
 }
+
+
+
+
+
 
 
 
