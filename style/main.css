@@ -1,11 +1,5 @@
 .container {
-    /*width: 1440px;*/
-    /*height: 5540px;*/
-    /*top: -2127px;*/
-    /*left: -4263px;*/
-    /*gap: 0px;*/
-    /*opacity: 0px;*/
-    /*padding: 0;*/
+
     padding: 0 15px;
 }
 
@@ -31,8 +25,6 @@ a, p {
     /*стало*/
     height: 56px;
     margin-right: 200px;
-
-
 }
 
 .logo img {
@@ -47,7 +39,6 @@ a, p {
     text-decoration: none;
     color: #000000;
 }
-
 
 /*
 не нужно задавать ширину высоту и тд, потому что это все происходит автоматически, так как это главный контейнер для капусты
@@ -95,7 +86,6 @@ a, p {
     height: 430px;
     /*display: flex;*/
     /*    padding: 30px 289px 107px 289px;*/
-
 }
 
 .cabbage p {
@@ -110,11 +100,9 @@ a, p {
     display: flex;
     padding: 30px 65px;
     justify-content: center;
-
 }
 
 .cake {
-
     width: 40%;
     display: flex;
     flex-wrap: wrap;
@@ -210,7 +198,6 @@ a, p {
     display: flex;
     padding: 30px 65px;
     justify-content: center;
-
 }
 
 .cucumber {
@@ -425,24 +412,22 @@ a, p {
 .cabbage-mobile {
     display: flex;
     height: 193px;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 20px 66px 48px 66px;
     background: #E6FFC0;
     flex-direction: column;
     align-items: center;
 }
-
 .cabbage-mobile img {
     padding: 0 0;
     height: 125px;
     align-content: center;
-    display: table-cell;
+    display: block;
 
     /*display: flex;*/
     /*    padding: 30px 289px 107px 289px;*/
 
 }
-
 .cabbage-mobile p {
     height: 28px;
     font-size: 23px;
@@ -482,7 +467,7 @@ a, p {
     align-content: center;
     display: block;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .cake-mobile img, .oil-mobile img {
@@ -496,11 +481,260 @@ a, p {
 
     color: #000000;
 }
+.vegetables-mobile {
+    /* width: 1110px; */
+    /*height: 417px;*/
+    /*top: 1266px;*/
+    /*left: 165px;*/
+    padding: 30px 65px 30px 65px;
+    display: block;
+    margin-top: 30px;
 
+    background: #B8BEB6;
+    /* justify-content: center; */
+}
+
+.blue-container-mobile {
+    background: #C5E9FC;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-container-mobile:nth-child(2) {
+    margin-top: 20px;
+}
+
+.onion-mobile {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.broccoli-mobile {
+
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-container-mobile img {
+    height: 113px;
+    width: 156px;
+}
+
+.blue-container-mobile p {
+    font-size: 23px;
+}
+.shelf-mobile{
+
+    margin-top: 30px;
+    background: #FFFFE9;
+    display: block;
+    padding: 20px 15px 20px 15px;
+    justify-content: center;
+}
+
+.cucumber-mobile {
+
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    display: block;
+    justify-content: center;
+
+}
+
+.radish-mobile {
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    display: block;
+    justify-content: center
+
+}
+
+.lemon-mobile {
+    padding: 20px 20px ;
+    align-content: center;
+    text-align: center;
+    display: block;
+    justify-content: center
+
+
+}
+
+.eggs-mobile {
+    padding: 20px 20px;
+    align-content: center;
+    text-align: center;
+    display: block;
+    justify-content: center;
+
+}
+
+.cucumber-mobile img, .radish-mobile img, .lemon-mobile img, .eggs-mobile img {
+   height: 107px;
+}
+
+.cucumber-mobile p, .radish-mobile p, .lemon-mobile p, .eggs-mobile p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+}
+.meat-mobile {
+    padding: 20px 15px 20px 15px;
+    display:flex;
+    background: #B8BEB6;
+    margin-top: 30px;
+}
+
+.block-mobile {
+    width: 290px;
+    height: 198px;
+    padding: 30px 25px 30px 25px;
+    background: #C5E9FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+
+.meat-mobile img {
+
+    height: 158px;
+    transform: rotate(270deg);
+}
+
+.meat-mobile p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+}
+.fruits-mobile {
+    margin-top: 30px;
+    background: #B8BEB6;
+    display: flex;
+    padding: 20px 15px 20px 15px;
+}
+.fruits-mobile img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pizza-mobile {
+    background: #B8BEB6;
+    margin-top: 30px;
+   padding: 20px 15px 20px 15px;
+}
+
+.w-block-mobile {
+
+    background: #C5E9FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pizza-mobile img {
+    width: 100%;
+}
+
+.pizza-mobile p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+}
+.ice-cream-mobile {
+    margin-top: 30px;
+    background: #FFFFE9;
+
+    padding: 30px 65px;
+    justify-content: space-between;
+}
+
+.ice-mobile{
+    width: 100%;
+    height: 186px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ice2-mobile {
+    width: 100%;
+    height: 186px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ice-mobile img, .ice2-mobile img {
+    height: 145px;
+}
+
+.ice-mobile p, .ice2-mobile p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 72.61px;
+    color: #000000;
+}
+.shelf2-mobile {
+    padding: 20px 15px 20px 15px;
+
+    margin-top: 30px;
+    background: #B8BEB6;
+}
+
+.blue-container-mobile {
+    background: #C5E9FC;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-container-mobile:nth-child(2) {
+
+}
+
+.bed-mobile {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cauliflower-mobile {
+    width: 50%;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-container-mobile img {
+    height: 113px;
+    width: 156px;
+}
+
+.blue-container-mobile p {
+    font-size: 23px;
+}
 
 @media (min-width: 576px) {
-    .container {
-        padding: 0 calc(50% - 270px);
+    .container {max-width: 540px;
+        margin: auto;
+        padding: 0;
 
     }
 }
@@ -508,7 +742,7 @@ a, p {
 
 @media (min-width: 768px) {
     .container {
-        padding: 0 calc(50% - 360px);
+        max-width: 720px;
 
     }
 }
@@ -516,14 +750,14 @@ a, p {
 
 @media (min-width: 991px) {
     .container {
-        padding: 0 calc(50% - 480px);
+        max-width: 960px;
 
     }
 }
 
 @media (min-width: 1199px) {
     .container {
-        padding: 0 calc(50% - 590px);
+        max-width: 1140px;
 
     }
 }
